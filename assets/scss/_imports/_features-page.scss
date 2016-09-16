@@ -1,0 +1,83 @@
+#features-page {
+  background: #fff;
+  .features-title {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    li {
+      h1 {
+        margin: 55px 0 13px 0;
+        font-size: 25px;
+        color: #3b4954;
+        text-align: center;
+      }
+      div {
+        width: 50px;
+        height: 2px;
+        background-color: #3b4954;
+        margin-bottom: 20px;
+      }
+    }
+  }
+  .features-info {
+    list-style: none;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 55px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    color: #626b73;
+
+    li {
+      width: 295px;
+      margin: 15px 15px 15px 55px;
+      position: relative;
+      h2 {
+        font-size: 20px;
+      }
+      p {
+        font-size: 13px;
+      }
+      &:nth-child(2)::before {
+        content: "☁";
+        position: absolute;
+        top: -3px;
+        left: 0;
+        font-size: 25px;
+        margin-left: -30px;
+      }
+      &:nth-child(3)::before {
+        content: "📺";
+        position: absolute;
+        top: 0;
+        left: 0;
+        font-size: 22px;
+        margin-left: -30px;
+      }
+      &:nth-child(4)::before {
+        content: "💦";
+        position: absolute;
+        top: -2px;
+        left: 0;
+        font-size: 23px;
+        margin-left: -30px;
+      }
+    }
+    li::before {
+      content: "★";
+      position: absolute;
+      top: -5px;;
+      left: 0;
+      font-size: 27px;
+      margin-left: -30px;
+      color: #02baab;
+    }
+  }
+}

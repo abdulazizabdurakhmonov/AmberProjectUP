@@ -1,0 +1,21 @@
+{
+  "name": "AmberProject",
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation": "~5.5.3"
+  },
+  "devDependencies": {
+    "foundation": "^5.5.3",
+    "breakpoint": "^4.6.4"
+  }
+}

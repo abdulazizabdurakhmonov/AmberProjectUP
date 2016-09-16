@@ -1,0 +1,56 @@
+#java-page {
+  max-width: 100%;
+  height: auto;
+  background-color: #fff;
+  padding: 20px;
+
+  .selected {
+    background-color: brown;
+  }
+
+  .gallery-container {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #b0b0b0;
+    .gallery-menu {
+      width: 90%;
+      height: auto;
+      margin: 5%;
+      background-color: #999999;
+      display: flex;
+      li {
+        list-style: none;
+        width: 34%;
+        button {
+          width: 100%;
+          margin: 0 auto;
+          text-align: center;
+        }
+      }
+    }
+    #photos {
+      margin: 0 auto;
+      .new-style {
+        display: flex;
+        flex-direction: row;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        li {
+          width: 200px;
+          height: 200px;
+          list-style: none;
+          margin: 10px;
+          background-color: #0a948b;
+          a {
+            img {
+            max-width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+}

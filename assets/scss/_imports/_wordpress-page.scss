@@ -1,0 +1,36 @@
+@import "variables";
+
+#wordpress-page{
+  width: 100%;
+  height: auto;
+  background: $link-color;
+  ul {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    li {
+      list-style: none;
+      text-align: center;
+      p {
+        margin: 35px 0 13px 0;
+        max-width: $p-width;
+        padding: $p-placing;
+        font-size: 13px;
+        color:#FFFFFF;
+      }
+      &:nth-child(2){
+        margin-top: 15px;
+        margin-bottom: 30px;
+      }
+      a{
+        border:2px solid #FFFFFF;
+        color: #FFFFFF;
+        padding: 5px;
+      }
+    }
+  }
+
+}

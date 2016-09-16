@@ -1,0 +1,64 @@
+@import "variables";
+
+#blog-page {
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  .blog-title {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    li {
+      h1 {
+        margin: 45px 0 13px 0;
+        font-size: 25px;
+        color: $grey-font-color;
+        text-align: center;
+      }
+      div {
+        width: 50px;
+        height: 2px;
+        background-color: $grey-font-color;
+        margin-bottom: 20px;
+      }
+    }
+  }
+  .blog-images {
+    list-style: none;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    color: $grey-font-color;
+    li{
+        width: 200px;
+        margin: 20px;
+      div{
+        width: 200px;
+        height: 200px;
+        background: url("../images/profile-icon.png") no-repeat local $grey-font-color ;
+        background-size: cover;
+      }
+      h2{
+        font-size: 20px;
+        text-align: left;
+        margin: 10px 0;
+        color: $link-color;
+      }
+      p{
+        font-size: 12px;
+        text-align: left;
+        margin-top: 5px;
+      }
+   }
+  }
+}
+

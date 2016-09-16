@@ -1,0 +1,33 @@
+@import "foundation";
+@import "foundation/settings";
+
+@import "_imports/_head";
+@import "_imports/_variables";
+@import "_imports/_main-page";
+@import "_imports/_steal-page";
+@import "_imports/_portfolio-page";
+@import "_imports/_wordpress-page";
+@import "_imports/_quotation-page";
+@import "_imports/_features-page";
+@import "_imports/_blog-page";
+@import "_imports/_experience-page";
+@import "_imports/java-page";
+@import "_imports/footer-page";
+
+body{
+
+
+
+  color : #cf2a0e;
+  background-color: #003366;
+  h1,h2,h3,p{
+    font-family: Ubuntu;
+    font-size: 13px;
+    margin: 0 0;
+    padding: 0;
+  }
+
+
+}
+
+
